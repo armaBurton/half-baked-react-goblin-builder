@@ -8,7 +8,7 @@ export default function GoblinForm(props) {
     if (props.goblinFormName){
       const goblin = {
         id: `${props.goblinFormName}${props.goblinFormHP}${props.goblinFormColor}${Math.floor(Math.random() * 9999)}`,
-        name: props.goblinFormName,
+        names: props.goblinFormName,
         hitPoints: props.goblinFormHP,
         color: props.goblinFormColor
       };

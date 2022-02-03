@@ -63,12 +63,9 @@ function App() {
             use the goblin form state to make a goblin object and to display it. 
             This will let the user see the current form state 
           */
-          goblinFormName, 
-          setGoblinFormName,
-          goblinFormColor, 
-          setGoblinFormColor,
-          goblinFormHP, 
-          setGoblinFormHP,
+          names: goblinFormName,
+          hitPoints: goblinFormHP,
+          color: goblinFormColor
 
         }} />
       </div>

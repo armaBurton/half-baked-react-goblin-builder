@@ -8,7 +8,7 @@ export default function Goblin(props) {
       onClick={() => props.handleDeleteGoblin && props.handleDeleteGoblin(props.goblin.id)}>
       <h3>{props.goblin.name}</h3>  
       <img src="goblin.png" style={{ backgroundColor: props.goblin.color }} />
-      <p>{props.goblin.hp} HP</p>
+      <p>{props.goblin.hitPoints} HP</p>
     </div>
   );
 }

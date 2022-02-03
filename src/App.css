@@ -30,6 +30,7 @@ body {
   align-items: center;
   margin: 10px;
   text-align: center;
+  gap: 5px;
 }
 
 .goblin img {

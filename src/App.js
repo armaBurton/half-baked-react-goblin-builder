@@ -47,7 +47,7 @@ function App() {
 
   function handleFilterGoblins(search) {
     // use the filter method to get an array of goblins whose name includes this search argument
-    const filteredGoblins = allGoblinsArr.filter(goblin => goblin.name.includes(search));
+    const filteredGoblins = allGoblinsArr.filter(goblin => goblin.names.includes(search));
 
     setFilteredGoblinsArr(filteredGoblins);
     // if there is a search argument, set the filtered goblins to the filtered goblins
